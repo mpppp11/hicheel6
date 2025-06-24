@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  background: #007bff;
+  padding: 1rem 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sign-in {
+  background-color: #ff4c60;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.hero {
+  background-color: #007bff;
+  color: white;
+  padding: 4rem 0;
+  position: relative;
+  border-bottom-left-radius: 80px;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.search {
+  margin-top: 1rem;
+}
+
+.search input {
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.search button {
+  padding: 10px;
+  background-color: #ff4c60;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.features {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.feature {
+  background: white;
+  color: #007bff;
+  padding: 1rem;
+  border-radius: 10px;
+  flex: 1;
+  text-align: center;
+  min-width: 120px;
+  font-weight: bold;
+}
+
+.hero-img {
+  position: relative;
+}
+
+.hero-img img {
+  border-radius: 10px;
+}
+
+.price-tag {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #00c4ff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.discount {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: #ff4c60;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.trending {
+  padding: 4rem 0;
+  background: #f9f9f9;
+}
+
+.trending h3 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #333;
+}
+
+.games {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.game-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 1rem;
+  width: calc(25% - 1rem);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  min-width: 200px;
+}
+
+.game-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.game-card p {
+  color: #888;
+  margin: 0.5rem 0 0;
+}
+
+.game-card h4 {
+  margin: 0.3rem 0;
+  font-weight: bold;
+}
